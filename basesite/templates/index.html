@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% load static %}
+    <title>Jesse Backman</title>
+
+    <!-- favicon -->
+    <link href="{% static "basesite/img/favicon.png" %}" rel=icon>
+
+    <!-- web-fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link href="{% static "basesite/css/font-awesome.min.css" %}" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="{% static "basesite/css/bootstrap.min.css" %}" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="{% static "basesite/css/style.css" %}" rel="stylesheet">
+
+    <!-- jquery -->
+    <script src= "{% static "basesite/js/jquery-2.1.4.min.js" %}"></script>
+
+    <!-- Bootstrap -->
+    <script src="{% static "basesite/js/bootstrap.min.js" %}"></script>
+    <script src="{% static "basesite/js/scripts.js" %}"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main-wrapper">
+<!-- Page Preloader -->
+<div id="preloader">
+    <div id="status">
+        <div class="status-mes"></div>
+    </div>
+</div>
+
+<div class="columns-block">
+<div class="left-col-block blocks">
+    <header class="header">
+        <div class="content text-center">
+            <h1>Jesse Backman</h1>
+
+            <p class="lead">M.Sc. (Tech.) Student, BBA</p>
+            <ul class="social-icon">
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="profile-img"></div>
+    </header>
+    <!-- .header-->
+</div>
+
+
+<div class="right-col-block blocks">
+<section class="intro section-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Hello, I'm Jesse Backman</h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <p>
+                  I'm a M.Sc (Tech., 4th year) student at TUT with a previous BBA degree, and this website is a project of mine. You could call it an introduction to what I do and who I am.
+                  I've started this website as a hobby to find something interesting to do and to learn hosting something concrete.
+
+                  I'm a mechanical engineering student & my major is product development, but I am equally interested in ICT matters, namely programming AI & ML. I am what they call a digital native.
+
+                </p>
+
+                <p>
+                  The website is running on my personal Ubuntu server, using Apache+gunicorn to run the Django application.
+                  It runs Travis CI for continous testing & integration. In the future I will likely host some random services to be accessible through the site.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="expertise-wrapper section-wrapper gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>My way</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Driven to develop</h3>
+
+                    <p>
+                      I try to accomplish something positive every day. In my opinion, we can always improve how we work.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>The right mindset</h3>
+
+                    <p>
+                      I'm tenacious to find a solution and to complete the job in hand. Overcoming challenges is enjoyable for me.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Ready for a challenge</h3>
+
+                    <p>
+                      Difficult tasks bring the best out of me and I like to work on something challenging rather than easy.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>See the big picture</h3>
+
+                    <p>
+                      I always try to understand the context in which I operate. I aim to identify the bigger picture and take it into consideration.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+    </div>
+    <!--.container-fluid-->
+</section>
+<!-- .expertise-wrapper -->
+
+
+<section class="expertise-wrapper section-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Skills</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Product development</h3>
+
+                    <p>
+                      <div class="list">
+                        <li>Modularity</li>
+                        <li>Developement process</li>
+                        <li>CAE</li>
+                      </div>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Programming</h3>
+
+                    <p>
+                      <div class="list">
+                        <li>C++, Python, Matlab - <font color="green">strong</font></li>
+                        <li>HTML, JS, Django-framework - <font color="green">intermediate</font></li>
+                        <li>Git, continuous integration, automated testing</li>
+                        <li>Machine learning, big data (Scala)</li>
+                      </div>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- .row -->
+        <div class="row">
+
+          <div class="col-md-6">
+              <div class="expertise-item">
+                  <h3>Organizational skills</h3>
+
+                  <p>
+                    <div class="list">
+                      <li>Project management</li>
+                      <li>Teamwork</li>
+                      <li>Organizational communication</li>
+                    </div>
+                  </p>
+              </div>
+          </div>
+
+          <div class="col-md-6">
+              <div class="expertise-item">
+                  <h3>Software skills</h3>
+
+                  <p>
+                    <div class="list">
+                      <li>Windows & UNIX-based OSs</li>
+                      <li>PLM software such as Teamcenter</li>
+                      <li>Solidworks, NX</li>
+                      <li>Traditional office software</li>
+                    </div>
+                  </p>
+              </div>
+          </div>
+
+        </div>
+        <!-- .row -->
+    </div>
+    <!--.container-fluid-->
+</section>
+<!-- .expertise-wrapper -->
+
+
+<section class="section-wrapper section-experience gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title"><h2>Recent Work Experience</h2></div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <small>2017 - Present</small>
+                    <h3>Trainee - Product Management</h3>
+                    <h4>Metso Minerals</h4>
+
+                    <p>Finland, Tampere</p>
+                </div>
+                <!-- .experience-item -->
+                <div class="content-item">
+                    <small>Summer 2016</small>
+                    <h3>Summer Trainee, Warehouse</h3>
+                    <h4>Kalmar</h4>
+
+                    <p>Finland, Tampere</p>
+                </div>
+                <!-- .experience-item -->
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+    <!-- .container-fluid -->
+
+</section>
+<!-- .section-experience -->
+
+<section class="section-wrapper section-education">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title"><h2>Education</h2></div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <small>2015 - Present (estimated graduation 2020)</small>
+                    <h3>M.Sc. (Tech.) Product Design & Development, Machine Learning</h3>
+                    <h4>Tampere University of Technology</h4>
+                    <p>Tampere, Finland</p>
+                </div>
+                <!-- .experience-item -->
+                <div class="content-item">
+                    <small>2012 - 2015</small>
+                    <h3>Bachelor of Business Administration</h3>
+                    <h4>Tampere University of Applied Sciences</h4>
+
+                    <p>Tampere, Finland</p>
+                </div>
+                <!-- .experience-item -->
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+    <!-- .container-fluid -->
+
+</section>
+<!-- .section-education -->
+
+<section class="section-wrapper section-interest gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Interest</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <h3>Technology</h3>
+
+                    <p>I enjoy all sorts of technology, programming, video games, assembling computers...</p>
+                </div>
+                <div class="content-item">
+                    <h3>Sports</h3>
+
+                    <p>I follow football, ice hockey and rugby. I myself like to cycle, ski and cross-country ski. Sometimes I find myself at the gym. </p>
+
+                </div>
+                <div class="content-item">
+                    <h3>Music</h3>
+
+                    <p>I listen to various types of music and play the guitar. At the moment I like to listen to the the likes of Stam1na, Dream Theater, Opeth and Amorphis.</p>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+
+    </div>
+</section>
+
+<section class="section-contact section-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <address>
+                    <strong>Please contact me by email</strong><br>
+                    jesse.backman (a) gmail.com
+                </address>
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+    <!--.container-fluid-->
+</section>
+<!--.section-contact-->
+
+<!-- .footer -->
+</div>
+<!-- .right-col-block -->
+</div>
+<!-- .columns-block -->
+</div>
+<!-- #main-wrapper -->
+
+
+</body>
+</html>
