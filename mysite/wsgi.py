@@ -3,7 +3,7 @@ import sys
 
 from django.core.wsgi import get_wsgi_application
 
-path = '/virtualenvs/fuzzy-carnival/fuzzy-carnival/'
+path = '/home/jesseb/projects/Envs/fuzzyenv/'
 if path not in sys.path:
 	sys.path.append(path)
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mysite.settings")

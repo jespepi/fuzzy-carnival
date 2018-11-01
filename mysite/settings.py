@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'r&z_xg3^qagkb=og1c0+fucsqddx16x^33li(k!=+=#+o_bsjq')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['192.168.1.159']
 
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['basesite/templates'],
+        'DIRS': [os.path.join(BASE_DIR, 'basesite/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -119,7 +119,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, "static/static_root")
+STATIC_ROOT = '/var/www/fuzzycarnival/static_root'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static/static_dirs"),
