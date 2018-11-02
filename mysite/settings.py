@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'r&z_xg3^qagkb=og1c0+fucsqddx16x^33li(k!=+=#+o_bsjq')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['192.168.1.159']
+ALLOWED_HOSTS = ['jessebackman.pro', 'www.jessebackman.pro']
 
 
 # Application definition
